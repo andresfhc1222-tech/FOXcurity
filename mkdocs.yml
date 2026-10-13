@@ -5,4 +5,9 @@ theme:
   lenguage: es
   palette:
     primary: purple
-
+  
+nav:
+  - Inicio: index.md
+  - Modulos de gestion: modulos.md
+  - Caracteristicas: asignaciones.md
+  - Contacto: contacto.md
