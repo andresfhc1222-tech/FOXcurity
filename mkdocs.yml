@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: FoxCurity
+
+theme: 
+  name: material
+  lenguage: es
+  palette:
+    primary: purple
+
