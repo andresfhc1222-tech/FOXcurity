@@ -1,13 +1,51 @@
-site_name: FoxCurity
+site_name: FOXcurity
+site_description: Sistema de gestión operativa para seguridad privada
+site_author: Andres felipe hernandez
+copyright: Proyecto Intermodular · 2º DAM · Andres
 
-theme: 
+theme:
   name: material
-  lenguage: es
+  language: es
   palette:
-    primary: purple
-  
+    # Modo claro elegante
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    # Modo oscuro sobrio
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  font:
+    text: Cinzel
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.right
+    - navigation.tracking
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - attr_list
+  - admonition
+
 nav:
   - Inicio: index.md
-  - Modulos de gestion: modulos.md
-  - Caracteristicas: asignaciones.md
+  - Módulos: modulos.md
+  - Asignaciones: asignaciones.md
   - Contacto: contacto.md
