@@ -32,3 +32,4 @@ Conexión directa entre la central de operaciones y los vigilantes desplegados e
 
 ```text
 Entrada de Turno -> Verificación GPS/Biométrica -> Registro de Incidencia -> Cierre de Jornada
+```
